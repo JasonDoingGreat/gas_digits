@@ -43,7 +43,6 @@ def main():
     # disMat = sch.distance.pdist(X, 'euclidean')
     # Z = sch.linkage(disMat, method='average')
     # P = sch.dendrogram(Z)
-    # plt.savefig('plot_dendrogram.png')
     #
     # cluster = sch.fcluster(Z, t=1, criterion='inconsistent')
     # print "Original cluster by hierarchy clustering:\n", cluster
